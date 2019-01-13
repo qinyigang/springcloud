@@ -1,0 +1,16 @@
+server:
+  port: 8070
+spring:
+  application:
+    name: lisService
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: springconfigserver
+      profile: test
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
