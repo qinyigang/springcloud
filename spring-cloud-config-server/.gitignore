@@ -23,3 +23,10 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+##local
+.idea
+.iml
+.cmd
+.jar
+mvnw
